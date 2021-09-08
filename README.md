@@ -24,14 +24,15 @@ Exadel Python Course 2021 for employees.
     * [Python plugin for IDEA](https://www.jetbrains.com/help/idea/plugin-overview.html)
 3. Install [git](https://git-scm.com/downloads) (if not installed yet)
 4. Sign up to [GitHub](https://github.com/) (if you do not have account yet)
-4. Fork([?](https://docs.github.com/en/get-started/quickstart/fork-a-repo)) this repository
-5. Clone your forked repository & run `hello_world.py` 
+5. Fork([?](https://docs.github.com/en/get-started/quickstart/fork-a-repo)) this repository. If you wish, create your own private repo instead, but follow the structure defined here.
+6. Add your mentor as a [contributor](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository) to your repository so that he/she can review your PRs.
+7. Clone your forked repository & run `hello_world.py` 
     ```bash
     git clone https://github.com/{your-github-nick}/exadel-python-course-2021.git
     cd exadel-python-course-2021
     python tasks/task00/hello_world.py
     ```
-6. In the end you should see `Hello, World!` line in console. 
+8. In the end you should see `Hello, World!` line in console. 
 ## Repository structure
 Place your solutions inside `tasks` folder, create a separate folder for every task. Treat every task folder as a separate project.
 
