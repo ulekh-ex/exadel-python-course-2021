@@ -5,13 +5,11 @@ def get_params(label):
     return map(int, data.split(" "))
 
 def base_calculate():
-    print("Base and height area")
     base, height = get_params("Enter base and height: ")
     area = round(0.5 * base * height, 2)
     print(f"Area is {area}")
 
 def angle_calculate():
-    print("Angle area")
     a, b, angle = get_params("Enter 2 sides and angle(degrees) between them: ")
     area = round(0.5 * a * b * math.sin(math.radians(angle)), 3)
     print(f"Area is {area}")
